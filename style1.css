@@ -1,0 +1,83 @@
+
+
+body { 
+    background-color: <a href="http://melnicabiz.ru/images1/magazin-tovarov-dlya-detei3.jpg";
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#header {
+    border: 1px solid #b5b7ba;
+    background-color: yellow;
+    min-width: 1280px;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+}
+#header #selected {
+    color: #000;
+}
+#header a {
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+#header span {
+    padding: 0 38px;
+}
+
+#center {
+    text-align: center;
+    margin: 0 auto;
+
+}
+#sab{
+text-align: center;
+}
+
+
+#box {
+    width: 671px;
+    background-color: #d5e632 ;
+    
+    float: right;
+    padding: 19px 28px 5px 96px;
+}
+#up {
+   background-color: white;
+    width: 110px;
+    height: 30px;
+    size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 30px;
+    font-weight: 30;
+    line-height: 30px; 
+    float: right;
+}
+#a {
+    clear: left;
+}
+
+#footer {
+
+    background-color: #434445;
+    flex: 0 0 auto;
+    height: 60px;
+    margin-top: 330px;
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 20px;
+    font-weight: 50;
+    line-height: 40px;
+}
+
+#footer a {
+    color: inherit;
+}

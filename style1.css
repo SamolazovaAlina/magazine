@@ -54,6 +54,7 @@ a#img {
     text-decoration: none;
     line-height: 30px;
     
+     
 }
 
 #header a:hover{
@@ -89,7 +90,7 @@ text-align: center;
     width: 671px;
     background-color: #d5e632 ;
     float: right;
-    padding: 19px 28px 5px 96px;
+    padding: 19px 28px 5px 36px;
 
 }
 

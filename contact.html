@@ -7,8 +7,12 @@
 	<link rel="stylesheet" href="style1.css">
 
 </head>
-<body background="http://img.desktopwallpapers.ru/food/pics/wide/1920x1080/409fd48af4cee4d80f008cb396e7c55c.jpg">
-<div id="header">
+<body>
+<div class="page">
+		<a id="img" href="index.html"><img src="logo.png"></a>
+		<div id="i">
+		<a href="basket.html" target="_self"><img src="backet1.png" title="Корзина"/></a></div>
+        <div id="header">
 		<a href="index.html">Главная</a> <span>/</span>
 		<a href="catalogy.html">Ассортимент</a> <span>/</span>
 		
@@ -27,19 +31,21 @@
 			<label>
 				Имя
 			</label>
-			<input type="text">
+			<input type="text" id="name" placeholder="Имя">
 			<label>
 				Фамилия
 			</label>
-			<input type="text">
+			<input type="text" id="surname" placeholder="Фамилия">
 			<label>
 				Отчество
 			</label>
-			<input type="text">
+			<input type="text" id="patronymic" placeholder="Отчество">
 			<label>
 				Email
 			</label>
 			<input type="text">
+
+    </fieldset>
 			
 			</fieldset>
 
@@ -56,8 +62,73 @@
 			<textarea id="sms" rows="5" cols="40">
 				</textarea>
 			</fieldset><br>
-		<input type="submit" value="отправить"><br><br>
 		
+		<fieldset>
+      <legend>
+        Информация о доставке
+      </legend>
+      <label for="address">
+        Адрес доставки
+      </label> 
+      <textarea id="address" rows="5" cols="20"> 
+      </textarea>
+      <b>Оплата</b>
+      <label for="payment_1"> 
+        <input type="radio" id="payment_1" name="payment">
+        Наличными
+      </label>
+      <label for="payment_2">    
+        <input type="radio" id="payment_2" name="payment" checked>
+        Картой
+      </label>
+      <label for="payment_3">
+        <input type="radio" id="payment_3" name="payment">
+        Переводом
+      </label>
+      <label for="house">
+        
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Дополнительно</legend>
+
+      <label for="need_sms">
+        
+        <input type="checkbox" id="need_sms" checked>
+        Присылать смс о статусе заказа
+      </label>
+
+      <label for="newsletter">
+        
+        <input type="checkbox" id="newsletter" checked>
+        Подписаться на нашу рассылку
+      </label>
+    </fieldset><br>
+
+   <fieldset>
+   <label>
+        Бонусная программа
+      </label>
+
+      <label for="invite">
+        Вы пришли от
+      </label>
+
+      <input type="text" value="Анна Карелина" id="invite" readonly>
+
+      <label for="manager">
+        Ваш личный менеджер
+      </label>
+
+      <input type="text" value="Иван Иванов" id="manager" disabled>
+
+    </fieldset><br>
+
+    <input type="submit" value="Отправить">
+
+    <input type="reset" value="Очистить">
+
 		<fieldset>
 			<legend>Наш адрес</legend>
 			<ul>
@@ -70,9 +141,9 @@
 
 	</form>	
 
-
-	<div id="footer"><hr>
-	&copyВсе права защищены
+</div>
+	<div id="footer">
+	&copy Все права защищены
 	</div>
 
 </body>
